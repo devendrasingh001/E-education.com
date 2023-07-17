@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Ubuntu&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+
+}
+
+
+.navlist {
+    width: 50%;
+    /* background-color: rgb(141, 141, 219); */
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 35%;
+    border: 2px solid white;
+    border-radius: 200px;
+
+
+}
+
+.navlist li {
+    list-style: none;
+    padding: 21px 28px;
+
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.navlist li a:hover {
+    color: rgb(91, 195, 16);
+}
+
+.rightnav {
+    width: 50%;
+    text-align: right;
+    /* background-color: aqua; */
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.back {
+    background: rgba(0, 0, 0, 0.7) url('/img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.main-box {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+    width: 100vw;
+
+}
+
+.section1 {
+    height: 80vh;
+    display: flex;
+    /* font-family: 'Ysabeau SC', sans-serif; */
+
+
+}
+
+.button {
+    padding: 10px 0px;
+
+}
+
+.btn {
+    font-size: 10px;
+    background: none;
+    color: white;
+    padding: 7px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 8px;
+    background: none;
+    color: white;
+    padding: 6px;
+    border-radius: 20px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.first-half {
+    width: 600px;
+
+}
+
+.sceond-half {
+    display: flex;
+}
+
+.big-text {
+    font-size: 30px;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.sceond-half img {
+    border: 2px solid white;
+    border-radius: 35px;
+
+}
+
+.thumbnail img {
+    width: 368px;
+    box-shadow: 10px 10px 10px 0 gray;
+    transition: box-shadow 0.3s;
+    border: 1px solid gray;
+    border-radius: 12px;
+    
+}
+.thumbnail img:hover{
+    box-shadow: 18px 18px 10px 0 gray;
+    
+    
+}
+
+.pera {
+    width: 30vw;
+}
+
+.pbig {
+    font-size: 42px;
+
+}
+
+.psmall {
+    font-size: 15px;
+}
+
+.section2 {
+
+    display: flex;
+
+    padding: 40px 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.thumbnail {
+    margin-left: 120px;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    justify-content: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+@media screen and (max-width: 915px) {
+
+    .navlist {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .rinput {
+        width: 100px;
+    }
+
+    .first-half {
+        width: 521px;
+    }
+
+    .burger {
+        position: absolute;
+        right: 2%;
+        top: 18%;
+        border: 1px solid gray;
+        padding: 6px;
+        border-radius: 4px;
+        background: none;
+    }
+
+    .line {
+        background-color: white;
+        width: 30px;
+        height: 2px;
+        margin: 2px 0px;
+    }
+
+    .nav-hight {
+        height: 5vh;
+    }
+
+    .v-class {
+        opacity: 0;
+    }
+
+
+
+    .section1 {
+        height: 54vh;
+    }
+
+    .main-box {
+        flex-direction: column-reverse;
+    }
+
+    .first-half {
+        width: 540px;
+    }
+
+    .section2 {
+        flex-direction: column-reverse;
+    }
+
+    .pera {
+        width: 50vw;
+    }
+
+    .thumbnail {
+        margin: 0;
+    }
+
+    .thumbnail img {
+        width: 297px;
+    }
+
+}
+
+@media screen and (max-width: 561px) {
+    .sceond-half img {
+        width: 190px;
+    }
+
+    .first-half {
+        width: 380px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 380px) {
+    .first-half{
+        width: 241px;
+    }
+    .thumbnail img{
+        width: 170px;
+    }
+    footer{
+        text-align: center;
+    }
+    .rinput{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 299px) {
+    .first-half{
+        width: 151px;
+    }
+    .sceond-half img{
+        width: 130px;
+    }
+    .rinput{
+        width: 80px;
+    }
+    
+
+}

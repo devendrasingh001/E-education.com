@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Ubuntu&display=swap');
+html {
+    background-color: rgba(255, 255, 255, 0.986);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.font{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.allproducts{
+    margin-bottom: 40px;
+}
+
+.products{
+    margin-top: 40px;
+    
+
+}
+
+.products h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: darkslategray;
+}
+
+.arrow_img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.arrow_img img{
+    width: 60px;
+    
+}
+
+
+
+
+.sec1 {
+    /* background-color: rgb(211, 211, 211); */
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.boss {
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px 0 gray;
+    transition: box-shadow 0.3s;
+    border-radius: 10px;
+    height: 40vh;
+    background-color: white;
+    /* background-size: cover; */
+}
+
+.boss:hover {
+    cursor: pointer;
+    box-shadow: 16px 16px 8px 0 gray;
+    margin-bottom: 5px;
+    
+}
+
+
+.emp1 img {
+    width: 330px;
+
+}
+
+.emp2 {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+
+.emp2 h3 {
+    font-size: 14px;
+}
+
+.emp2 p {
+    font-size: 13px;
+    color: gray;
+}
+
+.emp3 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.doler {
+    font-size: 22px;
+    color: green;
+    font-weight: bold;
+}
+
+.star {
+    color: darkorange;
+}
+
+.span {
+    color: gray;
+    font-size: 13px;
+}
+
+.rate {
+    font-size: 12px;
+    color: gray;
+}
+
+.bossbutton{
+    margin-top: 22px;
+}
+
+.btncart {
+    /* padding: 10px 10px; */
+    padding: 10px 10px 10px 10px;
+    background: none;
+    border: 1px solid gray;
+}
+
+.btncart:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.btnlive {
+    padding: 10px 15px;
+    background: none;
+    border: 2px solid rgb(98, 98, 253);
+    color: rgb(98, 98, 253);
+    transition: background-color 0.3s;
+}
+
+.btnlive:hover {
+    cursor: pointer;
+    background-color: rgb(98, 98, 253);
+    color: white;
+}
+
+
+
+/* .container {
+    background-color: blueviolet;
+    height: 90vh;
+}
+
+.box1 {
+    border: 2px solid black;
+    color: white;
+    margin-bottom: 20px;
+    transform: translate(340px)
+}
+
+
+.box2 {
+    border: 2px solid black;
+    color: white;
+    display: inline-block;
+    transform: translate(120px, 10%) rotatex(10deg);
+    transform: scalex(2);
+    transform: scale(2, 0.3);
+    transform: skew(0deg, 4deg);
+    transform-origin: 0%;
+} */
+
+/* img {
+    width: 300px;
+    margin: 20px;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    border: 2px solid black;
+    border-radius: 5%;
+
+} 
+
+ .box2 img:hover {
+    width: 50px;
+    border-radius: 10%;
+} */
